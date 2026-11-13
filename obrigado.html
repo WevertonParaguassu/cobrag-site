@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Download do CobraGentil · Pagamento confirmado</title>
+<title>Pagamento confirmado · CobraGentil</title>
+<meta http-equiv="refresh" content="8;url=https://cobragentil-portal.onrender.com/">
 <style>
 :root{--verde:#0f766e;--verde-esc:#115e59;--verde-cl:#ccfbf1;--fundo:#f6f7f5;--texto:#1f2933;--sub:#52606d;--borda:#d9e2ec;--alerta:#92400e;--alerta-cl:#fef3c7;--raio:14px}
 *{box-sizing:border-box}
@@ -20,18 +21,13 @@ header.hero{background:linear-gradient(160deg,var(--verde),var(--verde-esc));col
 h2{font-size:clamp(1.25rem,3.5vw,1.65rem);margin:28px 0 12px}
 h2:first-child{margin-top:0}
 .meta{color:var(--sub);font-size:.95rem;margin:0 0 8px}
-.meta strong{color:var(--texto)}
-article p{margin:10px 0}
-article ul{padding-left:22px;margin:8px 0 16px}
-article li{margin:6px 0}
-hr.sep{border:0;border-top:1px solid var(--borda);margin:28px 0}
 footer{padding:28px 0 40px;font-size:.85rem;color:var(--sub);border-top:1px solid var(--borda)}
 footer p{margin:6px 0}
 a{color:var(--verde-esc)}
 .caixa{max-width:680px;margin:0 auto;background:#fff;border:2px solid var(--verde);border-radius:var(--raio);padding:28px 22px}
 .badge{display:inline-block;background:var(--verde-cl);color:var(--verde-esc);font-weight:700;font-size:.85rem;padding:4px 10px;border-radius:999px;margin-bottom:10px}
-.btn-download{display:inline-block;background:var(--verde);color:#fff;font-weight:700;text-decoration:none;border-radius:999px;padding:15px 28px;font-size:1.05rem;margin:12px 0}
-.btn-download:hover{background:var(--verde-esc)}
+.cta{display:inline-block;background:var(--verde);color:#fff;font-weight:700;text-decoration:none;border-radius:999px;padding:15px 28px;font-size:1.05rem;margin:12px 0}
+.cta:hover{background:var(--verde-esc)}
 .passos{padding-left:20px;margin:14px 0}
 .passos li{margin:8px 0}
 .aviso-box{background:var(--fundo);border:1px solid var(--borda);border-radius:10px;padding:14px 16px;margin-top:18px;font-size:.94rem;color:var(--sub)}
@@ -41,67 +37,40 @@ a{color:var(--verde-esc)}
 <header class="hero">
   <div class="wrap">
     <div class="marca">CobraGentil</div>
-    <h1>Obrigado pela compra!</h1>
-    <p class="lead">Aqui você baixa o pacote completo do CobraGentil e confere os primeiros passos para começar a usar no celular ou no computador.</p>
+    <h1>Pagamento confirmado</h1>
+    <p class="lead">Obrigado pela compra. O acesso ao CobraGentil é feito com login no portal autenticado. Não há download do pacote ZIP nesta tela.</p>
     <a href="./index.html" class="voltar">← Voltar para a página do CobraGentil</a>
   </div>
 </header>
 
 <main class="conteudo">
   <div class="wrap">
-    <div id="estado-pronto" class="caixa" hidden>
-      <span class="badge">Pagamento confirmado</span>
-      <h2>Seu pacote CobraGentil v1 está pronto</h2>
-      <p>Clique no botão abaixo para baixar o arquivo <code>CobraGentil-v1.zip</code> com o aplicativo HTML offline, o manual do comprador, os 9 modelos de WhatsApp e os termos de licença.</p>
-      <a id="link-download" class="btn-download" href="#">Baixar CobraGentil-v1.zip</a>
-      <p id="ref-sessao" class="meta"></p>
-      <h3>Como abrir em 3 passos</h3>
-      <ol class="passos">
-        <li>Extraia (descompacte) o arquivo <code>CobraGentil-v1.zip</code> em uma pasta fixa do celular ou computador.</li>
-        <li>Abra o arquivo <code>CobraGentil_App.html</code> no navegador (Chrome, Safari, Edge ou Firefox). Não precisa instalar nada nem criar conta.</li>
-        <li>Seus dados ficam salvos só no navegador desse aparelho; use a função de backup em JSON sempre que quiser guardar uma cópia de segurança.</li>
-      </ol>
+    <div class="caixa">
+      <span class="badge">Próximo passo</span>
+      <h2>Entre no portal com o e-mail da compra</h2>
+      <p>Assim que o pagamento for confirmado, enviamos um link de acesso (<em>magic link</em>) para o e-mail usado na Stripe. Com esse link você entra no portal e já pode usar o CobraGentil autenticado.</p>
+      <ul class="passos">
+        <li>Nos primeiros 10 dias, o uso é somente pelo portal, com login. Não há botão de download do ZIP.</li>
+        <li>Você pode desistir da compra em até 7 dias corridos, com reembolso integral, nos termos do Art. 49 do Código de Defesa do Consumidor. Se houver reembolso ou contestação, o acesso ao portal e ao ZIP é encerrado imediatamente.</li>
+        <li>A partir do 10º dia, se a compra permanecer ativa, o portal libera o download do pacote ZIP para uso offline.</li>
+      </ul>
+      <p>Se o e-mail não chegar em alguns minutos, confira a caixa de spam ou escreva para <a href="mailto:contato.pronaos@gmail.com">contato.pronaos@gmail.com</a> informando o e-mail da compra.</p>
+      <p><a class="cta" href="https://cobragentil-portal.onrender.com/" rel="noopener">Ir para o portal do comprador</a></p>
+      <p class="meta">Esta página redireciona automaticamente ao portal em alguns segundos. Você também pode clicar no botão acima.</p>
       <div class="aviso-box">
-        <strong>Suporte e garantia de 7 dias (Art. 49 do CDC):</strong> se precisar de ajuda para baixar ou abrir os arquivos, escreva para <a href="mailto:contato.pronaos@gmail.com">contato.pronaos@gmail.com</a> informando o e-mail usado na compra.
+        <strong>Suporte e garantia de 7 dias (Art. 49 do CDC):</strong> dúvidas sobre acesso, login ou exercício do direito de arrependimento devem ir para <a href="mailto:contato.pronaos@gmail.com">contato.pronaos@gmail.com</a>. Leia também a <a href="./termos.html">Licença de Uso, Garantia e Termos</a>.
       </div>
-    </div>
-
-    <div id="estado-sem-token" class="caixa" hidden>
-      <span class="badge">Acesso pós-pagamento</span>
-      <h2>Download liberado após a confirmação na Stripe</h2>
-      <p>Esta página exibe o botão de download automaticamente quando você é redirecionado logo após concluir o pagamento no checkout oficial da Stripe.</p>
-      <p>Se você já comprou e fechou a janela antes de baixar, escreva para <a href="mailto:contato.pronaos@gmail.com">contato.pronaos@gmail.com</a> com o e-mail utilizado na compra para receber seu link novamente.</p>
-      <p><a href="./index.html">Ir para a página do CobraGentil</a></p>
     </div>
   </div>
 </main>
 
 <footer>
   <div class="wrap">
-    <p><b>Vendedor:</b> Weverton Paraguassú Teixeira · PRONAOS</p>
-    <p><b>Suporte:</b> <a href="mailto:contato.pronaos@gmail.com">contato.pronaos@gmail.com</a></p>
+    <p><b>Fornecedor responsável:</b> Weverton Paraguassú Teixeira · PRONAOS</p>
+    <p><b>Canal eletrônico oficial / suporte:</b> <a href="mailto:contato.pronaos@gmail.com">contato.pronaos@gmail.com</a></p>
+    <p><b>Pagamento:</b> Stripe (checkout seguro com cartão de crédito, Pix ou boleto)</p>
     <p><a href="./termos.html">Licença de Uso, Garantia e Termos</a></p>
   </div>
 </footer>
-
-<script>
-(function () {
-  var params = new URLSearchParams(window.location.search);
-  var token = (params.get("token") || "").trim();
-  var sessionId = (params.get("session_id") || "").trim();
-  var readyBox = document.getElementById("estado-pronto");
-  var missingBox = document.getElementById("estado-sem-token");
-  if (token) {
-    var dl = document.getElementById("link-download");
-    dl.href = "https://uldyifkurpemgdbfcsme.supabase.co/functions/v1/cobrag-entrega?token=" + encodeURIComponent(token);
-    if (sessionId && sessionId.indexOf("CHECKOUT_SESSION_ID") === -1) {
-      document.getElementById("ref-sessao").textContent = "Referência do checkout: " + sessionId;
-    }
-    readyBox.hidden = false;
-  } else {
-    missingBox.hidden = false;
-  }
-})();
-</script>
 </body>
 </html>
