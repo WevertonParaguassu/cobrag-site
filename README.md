@@ -1,2 +1,1 @@
-# cobrag-site
-Página de vendas e termos públicos do CobraGentil (hospedagem estática gratuita no Render)
+# CobraGentil — Página Pública\n\nVitrine pública estática do CobraGentil (R$ 49, pagamento único), hospedada gratuitamente no Render Static Site.\n\n- Página principal: `index.html`\n- Licença, garantia e termos: `termos.html`\n- Redirecionamento pós-checkout: `obrigado.html`\n
