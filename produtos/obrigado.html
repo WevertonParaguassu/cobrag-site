@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Pagamento confirmado · Equipe Pronaos</title>
+<link rel="stylesheet" href="/produtos/estilo.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="marca">Equipe Pronaos</div>
+    <h1>Pagamento confirmado</h1>
+    <p class="lead" id="lead">Obrigado pela compra. O acesso é enviado ao e-mail usado na Stripe. Não há download nesta tela.</p>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+    <section class="caixa">
+      <span class="badge">Próximo passo</span>
+      <h2>Confira o e-mail da compra</h2>
+      <p id="resumo">Assim que o pagamento for confirmado, a Equipe Pronaos envia o acesso para o e-mail usado no checkout.</p>
+      <ul>
+        <li>Nos primeiros 10 dias você recebe o manual e as instruções. O pacote ZIP é liberado a partir do 10º dia, se a compra permanecer ativa.</li>
+        <li>Você pode desistir em até 7 dias corridos, com reembolso integral, nos termos do Art. 49 do CDC. Reembolso, estorno ou contestação encerram o acesso na hora.</li>
+        <li>Se o e-mail não chegar em até 1 dia útil, confira a caixa de spam ou escreva para <a href="mailto:contato.pronaos@gmail.com">contato.pronaos@gmail.com</a> informando o e-mail da compra.</li>
+      </ul>
+      <p class="aviso" style="margin-top:16px"><b>Suporte:</b> <a href="mailto:contato.pronaos@gmail.com">contato.pronaos@gmail.com</a>. Leia também os <a href="/produtos/termos.html">termos de uso, garantia e entrega</a>.</p>
+    </section>
+  </div>
+</main>
+<footer>
+  <div class="wrap">
+    <p><b>Fornecedor responsável:</b> Equipe Pronaos</p>
+    <p><b>Canal eletrônico oficial / suporte:</b> <a href="mailto:contato.pronaos@gmail.com">contato.pronaos@gmail.com</a></p>
+    <p><a href="/produtos/termos.html">Termos de uso, garantia e entrega</a></p>
+  </div>
+</footer>
+<script>
+(function () {
+  var nomes = {
+    "kit-controle-pos-venda": "Kit Controle de Pós-venda",
+    "auditor-zip": "Auditor de ZIP",
+    "csv-cleanroom": "CSV Cleanroom"
+  };
+  var slug = new URLSearchParams(location.search).get("produto") || "";
+  var nome = nomes[slug];
+  if (nome) {
+    document.title = "Pagamento confirmado · " + nome;
+    document.getElementById("lead").textContent = "Obrigado pela compra do " + nome + ". O acesso é enviado ao e-mail usado na Stripe. Não há download nesta tela.";
+    document.getElementById("resumo").textContent = "Assim que o pagamento do " + nome + " for confirmado, a Equipe Pronaos envia o acesso para o e-mail usado no checkout.";
+  }
+})();
+</script>
+</body>
+</html>
