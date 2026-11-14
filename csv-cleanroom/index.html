@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSV Cleanroom · Equipe Pronaos</title>
+<meta name="description" content="Uma ferramenta local para analisar e limpar um CSV no navegador, neste computador: espaços, linhas duplicadas, risco de fórmula e um relatório, sem enviar o arquivo para a nuvem.">
+<link rel="stylesheet" href="/produtos/estilo.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="marca">Equipe Pronaos</div>
+    <h1>CSV Cleanroom</h1>
+    <p class="lead">Uma ferramenta local para analisar e limpar um CSV no navegador, neste computador: espaços, linhas duplicadas, risco de fórmula e um relatório, sem enviar o arquivo para a nuvem.</p>
+    <p class="preco">R$ 67, pagamento único</p>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+    <section class="caixa">
+<span class="badge">O que você recebe</span>
+<h2>Interface no navegador, arquivo neste computador</h2>
+
+<p>Você sobe o servidor local, abre o endereço impresso no terminal e trabalha no navegador. O servidor só escuta em 127.0.0.1. Sem conta, sem CDN e sem dependências além do Python 3.10 ou superior.</p>
+<ul>
+  <li>Aplicativo local (servidor + interface)</li>
+  <li>Detecção de cabeçalho repetido, células vazias, linhas duplicadas, colunas irregulares, formatos mistos, espaços e risco de fórmula</li>
+  <li>Opções para cortar espaços, remover duplicatas e escapar fórmulas</li>
+  <li>Download do CSV limpo e do relatório em JSON</li>
+  <li>Manual, licença, exemplos sintéticos e testes</li>
+</ul>
+
+</section>
+<section class="caixa simples">
+<span class="badge">Para quem é</span>
+<h2>Quem trabalha com listas e planilhas em CSV</h2>
+
+<p>Quem recebe bases de clientes, estoque ou pedidos em CSV e quer higienizar o arquivo antes de abrir na planilha. A limpeza é operacional e pede conferência humana. Há limites de tamanho (1 MB, 5.000 linhas, 100 colunas).</p>
+
+</section>
+<section class="caixa simples">
+<span class="badge">Como usar</span>
+<h2>Rode o servidor e abra o endereço local</h2>
+
+<ul>
+  <li>No terminal, na pasta do produto: <code>python3 server.py</code></li>
+  <li>Abra <code>http://127.0.0.1:8765/</code></li>
+  <li>Escolha o CSV, clique em Analisar, marque as opções e clique em Limpar</li>
+  <li>Baixe o CSV limpo e o relatório</li>
+</ul>
+
+</section>
+    <section class="caixa" id="pagamento">
+      <span class="badge">Pagamento</span>
+      <h2>Comprar por R$ 67, pagamento único</h2>
+      <p>O pagamento é único, no cartão, pelo checkout da Stripe. Não há assinatura. Depois da confirmação, a Equipe Pronaos envia o acesso ao e-mail usado na compra. Nos primeiros 10 dias você recebe o manual e as instruções; a ferramenta (pacote ZIP) é liberada a partir do 10º dia, se a compra permanecer ativa. É preciso ter Python 3.10 ou superior no computador. Reembolso, estorno ou contestação encerram o acesso. Você pode desistir em até 7 dias corridos (Art. 49 do CDC).</p>
+      <p><a class="cta" href="https://buy.stripe.com/eVqcN779h0wCey1g6W9R603" rel="noopener">Comprar por R$ 67, pagamento único</a></p>
+      <span class="cta-nota">Checkout seguro da Stripe, só com cartão. Leia os <a href="/produtos/termos.html">termos de uso, garantia e entrega</a> antes de pagar.</span>
+      <p class="aviso" style="margin-top:16px">Este material é operacional e é fornecido como está. Não é aconselhamento jurídico ou fiscal, não promete resultado e não substitui conferência humana.</p>
+    </section>
+  </div>
+</main>
+<footer>
+  <div class="wrap">
+    <p><b>Fornecedor responsável: Equipe Pronaos</b></p>
+    <p><b>Canal eletrônico oficial / suporte:</b> <a href="mailto:contato.pronaos@gmail.com">contato.pronaos@gmail.com</a></p>
+    <p><a href="/produtos/termos.html">Termos de uso, garantia e entrega</a> · Identificação fiscal e endereço disponíveis mediante solicitação pelo mesmo e-mail.</p>
+  </div>
+</footer>
+</body>
+</html>
