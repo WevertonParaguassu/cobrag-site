@@ -12,7 +12,7 @@
   <div class="wrap">
     <div class="marca">Equipe Pronaos</div>
     <h1>Pagamento confirmado</h1>
-    <p class="lead" id="lead">Obrigado pela compra. O acesso é enviado ao e-mail usado na Stripe. Não há download nesta tela.</p>
+    <p class="lead" id="lead">Obrigado pela compra. A entrega é automática: o link de acesso chega ao e-mail usado na Stripe assim que o pagamento é confirmado. Não há download nesta tela.</p>
   </div>
 </header>
 <main>
@@ -20,11 +20,11 @@
     <section class="caixa">
       <span class="badge">Próximo passo</span>
       <h2>Confira o e-mail da compra</h2>
-      <p id="resumo">Assim que o pagamento for confirmado, a Equipe Pronaos envia o acesso para o e-mail usado no checkout.</p>
+      <p id="resumo">Em poucos minutos você recebe a mensagem "Seu acesso à área do comprador Pronaos" com um link pessoal para a <a href="https://cobragentil-portal.onrender.com/">área do comprador</a>.</p>
       <ul>
-        <li>Nos primeiros 10 dias você recebe o manual e as instruções. O pacote ZIP é liberado a partir do 10º dia, se a compra permanecer ativa.</li>
+        <li>Nos primeiros 10 dias, a área do comprador mostra o manual e as instruções. O pacote ZIP é liberado a partir do 10º dia, se a compra permanecer ativa.</li>
         <li>Você pode desistir em até 7 dias corridos, com reembolso integral, nos termos do Art. 49 do CDC. Reembolso, estorno ou contestação encerram o acesso na hora.</li>
-        <li>Se o e-mail não chegar em até 1 dia útil, confira a caixa de spam ou escreva para <a href="mailto:contato.pronaos@gmail.com">contato.pronaos@gmail.com</a> informando o e-mail da compra.</li>
+        <li>Se o e-mail não chegar em alguns minutos, confira a caixa de spam ou escreva para <a href="mailto:contato.pronaos@gmail.com">contato.pronaos@gmail.com</a> informando o e-mail da compra.</li>
       </ul>
       <p class="aviso" style="margin-top:16px"><b>Suporte:</b> <a href="mailto:contato.pronaos@gmail.com">contato.pronaos@gmail.com</a>. Leia também os <a href="/produtos/termos.html">termos de uso, garantia e entrega</a>.</p>
     </section>
@@ -48,8 +48,8 @@
   var nome = nomes[slug];
   if (nome) {
     document.title = "Pagamento confirmado · " + nome;
-    document.getElementById("lead").textContent = "Obrigado pela compra do " + nome + ". O acesso é enviado ao e-mail usado na Stripe. Não há download nesta tela.";
-    document.getElementById("resumo").textContent = "Assim que o pagamento do " + nome + " for confirmado, a Equipe Pronaos envia o acesso para o e-mail usado no checkout.";
+    document.getElementById("lead").textContent = "Obrigado pela compra do " + nome + ". A entrega é automática: o link de acesso chega ao e-mail usado na Stripe assim que o pagamento é confirmado. Não há download nesta tela.";
+    document.getElementById("resumo").textContent = "Assim que o pagamento do " + nome + " for confirmado, o link de acesso à área do comprador chega automaticamente ao e-mail usado no checkout.";
   }
 })();
 </script>
